@@ -38,7 +38,6 @@ async def callback_query_handler(event):
 # inline by Swami_2_0_0_5
   PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwobotsupport"), Button.url("SUPPORT GROUP", "https://t.me/mewtwo1_botsupport")]]
   PROBOYX +=[[Button.url("POKEMON GO FRIENDS", "https://t.me/letsplay_pokemongo"), Button.url("HELPER", "https://t.me/Swami_alt")]]
-  PROBOYX +=[[Button.url("REPO", "https://github.com/pogonoob/LEGEND-X") ,Button.url("BOT", "https://t.me/mewtwo3_bot")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=PROBOYX)
 
