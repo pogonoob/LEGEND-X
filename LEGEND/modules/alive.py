@@ -19,12 +19,12 @@ PHOTO = "https://telegra.ph/file/ae5a7b751569bb8b5062e.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
-  LEGENDX = "HELLO THIS IS Mewtwo bot \n\n"
-  LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
-  LEGENDX += "3.0 OS : 3.8 LATEST\n\n"
-  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
-  LEGENDX += "FULLY UPDATED\n\n"
-  LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
+  LEGENDX = "✧✧ Mewtwo-3.0 IS UP AND RUNNING SUCCESSFULLY ✧✧ \n\n"
+  LEGENDX += "➥ DATABASE : ALL DATABASES FUNCTIONING PROPERLY\n\n"
+  LEGENDX += "Mewtwo OS : 3.0 [LATEST]\n\n"
+  LEGENDX += f"➥ USER {legendx} ☺️\n\n"
+  LEGENDX += "➥ FULLY UPDATED\n\n"
+  LEGENDX += "➥ TELETHON : 1.19.5 [LATEST]\n\n"
   LEGENDX += "THANKS FOR ADDING ME HERE"
   BUTTON = [[Button.url("DEVELOPER", "https://t.me/Swami_2_0_0_5"), Button.url("MASTER", "https://t.me/swami_2_0_0_5")]]
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
