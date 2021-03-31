@@ -36,7 +36,6 @@ async def awake(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
 async def callback_query_handler(event):
 # inline by Swami_2_0_0_5
-  PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwobotsupport"), Button.url("SUPPORT GROUP", "https://t.me/mewtwo1_botsupport")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=PROBOYX)
 
