@@ -26,7 +26,7 @@ async def awake(event):
   LEGENDX += "➥ FULLY UPDATED\n\n"
   LEGENDX += "➥ TELETHON : 1.19.5 [LATEST]\n\n"
   LEGENDX += "THANKS FOR ADDING ME HERE"
-  BUTTON = [[Button.url("DEVELOPER", "https://t.me/Swami_2_0_0_5"), Button.url("MASTER", "https://t.me/swami_2_0_0_5")]], Button.url("REPO","https://github.com/pogonoob/LEGEND-X)]]
+  BUTTON = [[Button.url("DEVELOPER", "https://t.me/Swami_2_0_0_5"), Button.url("MASTER", "https://t.me/swami_2_0_0_5")]],
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
@@ -38,6 +38,7 @@ async def callback_query_handler(event):
 # inline by Swami_2_0_0_5
   PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwobotsupport"), Button.url("SUPPORT GROUP", "https://t.me/mewtwo1_botsupport")]]
   PROBOYX +=[[Button.url("POKEMON GO FRIENDS", "https://t.me/letsplay_pokemongo"), Button.url("HELPER", "https://t.me/Swami_alt")]]
+  PROBOYX +=[[Button.url("REPO", "https://github.com/pogonoob/LEGEND-X") ,Button.url("BOT", "https://t.me/mewtwo3_bot")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=PROBOYX)
 
