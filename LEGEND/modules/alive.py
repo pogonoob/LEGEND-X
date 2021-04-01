@@ -27,13 +27,13 @@ async def awake(event):
   LEGENDX += "➥ TELETHON : 1.19.5 [LATEST]\n\n"
   LEGENDX += "THANKS FOR ADDING ME HERE"
   BUTTON = [[Button.url("DEVELOPER", "https://t.me/Swami_2_0_0_5"), Button.url("MASTER", "https://t.me/swami_2_0_0_5")]],
-  BUTTON += [[custom.Button.inline("REPOSITORYS", data="Swami_2_0_0_5")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=Swami_2_0_0_5,  buttons=BUTTON)
+  BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX22")]]
+  await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX22,  buttons=BUTTON)
 
 
 
 
-@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"Swami_2_0_0_5")))
+@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX22")))
 async def callback_query_handler(event):
 # inline by Swami_2_0_0_5
   PROBOYX = [[Button.url("REPO-LEGEND", "https://github.com/LEGENDXOP/LEGEND-BOT"), Button.url("REPO-ULTROID X", "https://github.com/ULTROID-OP/ULTROID-BOT")]]
